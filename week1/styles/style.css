@@ -26,6 +26,7 @@ body {
 main {
     display: grid;
     grid-template-areas:
+        "portfolio mapheader"
         "portfolio map";
     grid-template-columns: 1fr 1fr;
 }
@@ -47,7 +48,15 @@ main {
 }
 #map {
     grid-area: map;
-    height: 80vh;
+    height: 50vh;
+}
+
+#mapheader {
+    grid-area: mapheader;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    display: grid;
 }
 
 footer {
