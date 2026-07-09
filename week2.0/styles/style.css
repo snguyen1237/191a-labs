@@ -59,14 +59,25 @@ main {
     justify-content: center;
     align-items: center;
     display: grid;
-    row-gap: 10px;
 }
 
 #contents{
     align-items: center;
     display: flex;  
     gap: 10px;
-    row-gap: 30px; 
+    row-gap: 20px; 
+    justify-content: center;
+    align-items: center;
+}
+
+#GAPpls{
+    grid-area: GAPpls;
+    height: 5vh;
+    align-items: center;
+    justify-content:center;
+    display:grid;
+    gap: 10px;
+
 }
 
 footer {
