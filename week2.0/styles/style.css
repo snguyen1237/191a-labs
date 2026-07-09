@@ -37,6 +37,7 @@ header {
 
 main {
     grid-area: main;
+    padding: 10px;
 }
 
 .portfolio {
