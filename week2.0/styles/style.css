@@ -41,11 +41,16 @@ main {
 
 .portfolio {
     grid-area: portfolio;
+    row-gap: 10px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio img {
-    max-width: 400px;
+    max-width: 200px;
 }
+
 #map {
     grid-area: map;
     height: 50vh;
