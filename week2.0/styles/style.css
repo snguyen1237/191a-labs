@@ -41,9 +41,6 @@ main {
 
 .portfolio {
     grid-area: portfolio;
-    row-gap: 10px;
-    justify-content: center;
-    align-items: center;
 }
 
 .portfolio img {
