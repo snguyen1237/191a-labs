@@ -42,7 +42,6 @@ main {
 .portfolio {
     grid-area: portfolio;
     row-gap: 10px;
-    width: 600px;
     justify-content: center;
     align-items: center;
 }
