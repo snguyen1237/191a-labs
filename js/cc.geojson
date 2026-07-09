@@ -1,0 +1,40 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.41599,
+                    34.05831
+                ]
+            },
+            "bbox": [
+                -118.469307,
+                34.019955,
+                -118.429906,
+                34.050784
+            ],
+            "properties": {
+                "place": "home",
+                "color": "rgba(130, 47, 108, 0.22)"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place": "century city",
+                "": "",
+                "color": "rgba(62, 130, 47, 0.3)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.419623,
+                    34.058693
+                ]
+            }
+        }
+    ]
+}

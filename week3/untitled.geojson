@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.41599,
+                    34.05831
+                ]
+            },
+            "bbox": [
+                -118.469307,
+                34.019955,
+                -118.429906,
+                34.050784
+            ],
+            "properties": {
+                "place": "sawtelle",
+                "color": "blue",
+                "marker-color": "rgba(50, 47, 130, 0.24)"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place": "tehrangeles",
+                "color": "green",
+                "": "",
+                "marker-color": "rgba(66, 130, 47, 0.3)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.441943,
+                    34.055883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place": "century city",
+                "marker-color": "rgba(255, 243, 41, 0.18)",
+                "color": "yellow"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.419222,
+                    34.058649
+                ]
+            }
+        }
+    ]
+}
