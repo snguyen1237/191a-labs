@@ -1,0 +1,69 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "rgba(219, 0, 0, 1)",
+                "place": "Royce Quad",
+                "color": "red",
+                "description": "The vast lawn in front of Royce Hall."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.442199,
+                    34.072225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place": "Dickson Court",
+                "marker-color": "rgba(161, 197, 161, 1)",
+                "color": "green",
+                "description": "A lawn with many trees in North Campus!"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.44025,
+                    34.072727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "rgba(206, 167, 222, 1)",
+                "place": "Bruinwalk",
+                "color": "purple",
+                "description": "A popular spot for organizations to table."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.443338,
+                    34.070981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "rgba(235, 182, 102, 1)",
+                "place": "Bruin Plaza",
+                "color": "orange",
+                "description": "Home of the Bruin Bear!"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.444787,
+                    34.070988
+                ]
+            }
+        }
+    ]
+}

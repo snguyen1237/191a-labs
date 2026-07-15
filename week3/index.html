@@ -1,41 +1,124 @@
 <!DOCTYPE html>
 <html>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="project/index.html">Project</a>
+            </li>
+        </ul>
+    </nav>
+
+
     <head>
-        <title>Hello World with MapLibreGl</title>
-        <!-- hint: remember to change your page title! -->
+        <title>Hello World with MapLibreGL</title>
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="#">
-        <link rel="stylesheet" href="styles/style.css">
-
-        <!-- MapLibreGL's css-->
+             Bravepoo
+        <!-- I'd add some style if here if I had any -->
+        
+        
+       <link rel="stylesheet" href="styles/style.css">
+       <link rel="stylesheet" href ="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css">
+                <!-- MapLibreGL's css-->
         <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
 
         <!-- MapLibreGL's JavaScript-->
         <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+
     </head>
+
+
+   
 
     <body>
         <header>
-            Hello World
-            <!-- hint: you can make a menu with other links here if you'd like -->
+            Navigate:
+            <a href="index.html" class="button-48">Home</a></li>
+            <a href="project/index.html" class="button-48">Project</a></li>  
         </header>
 
         <main>
-            <div class="portfolio">
-                <div id="contents"></div>
-                <!-- Portfolio content goes here -->
-                <h2>Where I've lived in LA</h2>
-                <ul>
-                    <li>UCLA</li>
-                    <li>Westwood</li>
-                    <li>Koreatown</li>
+         <!--  <h3> (Map Title!!!!) Sophia's Favorite Outdoor Study Spots at UCLA! </h3> --> <!--my map title-->
+          <!-- hint: majority of your lab assignment can go here -->
+          <div class="portfolio">
+                <h1> Sophia's Awesome Map and Etc. </h1>  <!--my title-->
+
+            <!-- Portfolio content goes here -->
+                <img src="https://media1.tenor.com/m/XJuZ14LuNUYAAAAC/drool-patrick-star.gif" alt="i like this guy">
+                <img src="zeus3.png" alt="my dog, Zeus!"> <!--my avatar-->
+
+
+                <!--my description pgph-->
+                <p> 
+                    <h3> About Me: </h3>
+                        Hello! I'm Sophia Nguyen, a graduating Asian American Studies major! My primary goal as a critical 
+                    digital map maker is to work with and center community. As I've engaged with the academy, I've strived to 
+                    question who the academy serves. I've never engaged with mapping or GIS before, but I'm excited to see how 
+                    I can utilize this questioning (and do some answering) to work towards a more ethical world of GIS!
+
+                </p>
+
+                <p> 
+                    <h3> A list of things I like, in no particular order:</h3>
+                </p>
+
+                <ul> <!--my list-->
+                    <li> my dog Zeus! (re: the photo, but not the patrick one) </li>
+                    <li> baking bread </li>
+                        <ul>
+                            <li>
+                                <a href="https://www.cookwell.com/recipe/focaccia"> foccacia recipe</a>
+                            </li>
+                        </ul>
+                
+                    <li> reading sci-fi and fantasy books! </li>
+                    <li> writing creative non-fiction and other essays (not well, but i write it) </li>
+                        <ul>
+                            <li>
+                                <a href="https://www.waterandrage.wordpress.com">my blog: waterandrage.wordpress.com</a>
+                            </li>
+                        </ul>
+                    <li> probably a handful of other things too... </li>
                 </ul>
+
+          </div>
+
+        <div> 
+            <div id = "mapheader"> 
+                <h3> My Favorite Outdoor Study Spots at UCLA! </h3>
             </div>
-            <div id="map"></div>
+
+                <div id="contents">
+                    <button class = "myButton">
+                    Explore Randomly!
+                    </button> 
+                </div>
+                
+    
+            <div id = "GAPpls"> 
+                <p> p.s. give the explore button a 3-second cooldown period after using. it has to think really hard.</p>
+
+            </div>
+
+            <div id = "map">
+
+            <!-- Map will be inserted here -->
+          </div>
+
+        </div>
+          
+
         </main>
+
         <div id="footer">
             Copyright(2026)
         </div>
-        <script src="js/init.js"></script>
+
     </body>
+    <script src="js/init.js"> </script>
+
 </html>

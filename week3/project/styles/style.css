@@ -12,6 +12,7 @@ html{
 html, body {
     height: 80vh;
     padding: 1rem;
+    box-sizing: border-box;
 }
 
 body {
@@ -26,76 +27,47 @@ body {
 main {
     display: grid;
     grid-template-areas:
-        "portfolio mapheader"
         "portfolio map";
     grid-template-columns: 1fr 1fr;
+    grid-area: main;
 }
 
 header {
     grid-area: header;
 }
 
-main {
-    grid-area: main;
-    padding: 10px;
-}
-
 .portfolio {
     grid-area: portfolio;
-}
-
-.portfolio img {
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #map {
     grid-area: map;
-    height: 50vh;
-    row-gap: 20px;
-    gap: 100px;
+    height: 80vh;
 }
 
-#mapheader{
-    grid-area: mapheader;
-    height: 10vh;
-    justify-content: center;
-    align-items: center;
-    display: grid;
+#footer {
+    grid-area: footer;
+    padding: 1rem;
+    background-color: #4677a0;
+    color: #fff;
+    text-align: center;
 }
 
 #contents{
-    align-items: center;
-    display: flex;  
-    gap: 10px;
-    row-gap: 20px; 
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#GAPpls{
-    grid-area: GAPpls;
-    height: 5vh;
-    align-items: center;
-    justify-content:center;
-    display:grid;
     gap: 10px;
-
 }
 
-footer {
-    grid-area: footer;
+.center-text {
+  text-align: center;
 }
 
-.myButton{
-  padding: 10px 15px; 
-  font-size: 15px; 
-  background-color: rgb(252, 213, 253);
-  border-radius: 24px;
-  font-weight: 500;
-
-}
-
-/* CSS */
 .button-17 {
   align-items: center;
   appearance: none;
