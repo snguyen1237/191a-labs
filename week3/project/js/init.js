@@ -2,7 +2,7 @@
 
 
 const mapOptions = {
-    "zoom": 16.5,
+    "zoom": 15,
     "center" : [-118.442199,34.072225],
 }
 
