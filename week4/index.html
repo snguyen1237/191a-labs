@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sophia's Week 4</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="styles/style.css">
+
+        <!-- MapLibreGL's css-->
+        <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
+
+        <!-- MapLibreGL's JavaScript-->
+        <script src="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+        <style>
+        h2 {text-align: center;}
+        h4 {text-align: center;}
+        p {text-align: center;}
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <h1> Rating Study Spots at UCLA </h1>
+        </header>
+
+        <main>
+            <div class="portfolio">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScN0nfaxRpWjmxT06D40xUdi4gJd94ZidSlZQkGmhXhj4NWLw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+
+            <div> 
+                <div id = "mapheader"> 
+                    <h2> Rated Study Spots at UCLA </h2>
+                    <h4> Check out some study spots at UCLA! Use the buttons below to look at what's already been rated, <br>
+                        or fill out the form to the left to add your own!</h4>
+                    <p> <span style="text-decoration: underline;"> Legend for Buttons and Markers:</span> <br> 
+                        <span style="color: red;"> Red </span> = <span style="color: red;">"Bad"</span> rating | 
+                        <span style="color: blue;">Blue </span> = <span style="color: blue;">"Ok"</span> rating | 
+                        <span style="color: green;">Green</span> = <span style="color: green;">"Great"</span> rating.
+                    </p>
+                </div>
+
+                    <div id="contents">
+                    </div>
+                    
+        
+                <div id = "GAPpls"> 
+                </div>
+
+                <div id = "map">
+
+                <!-- Map will be inserted here -->
+                </div>
+
+            </div>  
+
+        </main>
+        <div id="footer">
+            Copyright(2026)
+        </div>
+        <script src="js/init.js"></script>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif  ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(255, 246, 199);
+}
+
+html, body {
+    height: 80vh;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: auto 1fr auto;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        "portfolio mapheader"
+        "portfolio map";
+    grid-template-columns: 1fr 1fr;
+}
+
+header {
+    grid-area: header;
+}
+
+.portfolio {
+    grid-area: portfolio;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#map {
+    grid-area: map;
+    height: 50vh;
+    row-gap: 20px;
+    gap: 100px;
+}
+
+#mapheader{
+    grid-area: mapheader;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+#footer {
+    grid-area: footer;
+    padding: 5px;
+    background-color: rgb(255, 246, 199);
+    color: #000000;
+    text-align: center;
+}
+
+#contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
