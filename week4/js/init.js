@@ -6,7 +6,7 @@ let dataUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQgQ4dNkB6Z1K4V_U
 console.log(maplibregl);
 
 //const map = new maplibregl.Map({
-const map = new maplibregl.Map({
+const map = new maplibregl.Map ({
     container: 'map',
     style: 'https://api.maptiler.com/maps/streets-v2-light/style.json?key=wsyYBQjqRwKnNsZrtci1',
     center: mapOptions.centerLngLat,
